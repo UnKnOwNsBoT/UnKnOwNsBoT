@@ -224,9 +224,17 @@ function create_config( )
     "invite",
     "all",
     "leave_ban",
-    "admin"
+    "admin",
+    "Hello",
+    "chatlock",
+    "chat",
+    "echo",
+    "stickerlock",
+    "time",
+    "welcome",
+    "info"
     },
-    sudo_users = {158576539,158576539,0,0,0,tonumber(our_id)},--Sudo users
+    sudo_users = {158576539,0,0,0,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Teleseed v2 - Open Source
