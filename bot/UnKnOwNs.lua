@@ -232,7 +232,8 @@ function create_config( )
     "stickerlock",
     "time",
     "welcome",
-    "info"
+    "info",
+    "antifosh"
     },
     sudo_users = {158576539,0,0,0,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
