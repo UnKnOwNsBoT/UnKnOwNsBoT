@@ -5,7 +5,7 @@ local function run(msg, matches)
     text = text:trim()
     text,b = text:gsub('^!+','')
     if not is_sudo then 
-return "برای صاحب بات"
+return "For Admins"
   end
   local name = matches[2]
   local file = io.open("./plugins/"..name..matches[3], "w")
@@ -16,6 +16,6 @@ return "برای صاحب بات"
   description = "a Usefull plugin for sudo !",
   usage = "A plugins to add Another plugins to the server",
   patterns = {
-    "^addplugin +(.+) (.*) (.*)$"
+    "!addplugin +(.+) (.*) (.*)$"
   },
   run = run
