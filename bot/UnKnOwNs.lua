@@ -233,7 +233,9 @@ function create_config( )
     "time",
     "welcome",
     "info",
-    "antifosh"
+    "antifosh",
+    "addplugin",
+    "plugins"
     },
     sudo_users = {158576539,0,0,0,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
